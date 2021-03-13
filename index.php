@@ -3,6 +3,6 @@
     <title>PHP Test</title>
     </head>
     <body>
-    <?php echo '<p>Hellor world heroku<p/>'; ?>
+    <?php echo '<p>Hellor world ¡'. ($_GET["name"]) .'!<p/>'; ?>
     </body>
 </html>
